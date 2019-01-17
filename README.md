@@ -1,6 +1,6 @@
 -English-
 
-Python3 implementation of *An Improvement of KD-tree base Metric Similarity Joins using MapReduce* KSC2018 (Korea Software Congress 2018)
+Python3 implementation of *An Improvement of KD-tree base Metric Similarity Joins using MapReduce*, KSC2018 (Korea Software Congress 2018)
 
 (There was a typo in the english title; "base"->"based")
 
