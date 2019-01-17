@@ -21,11 +21,12 @@ Usage :
 31  with open('datasets/word/O_11', 'rb') as f:
 32      O = pickle.load(f)
 ```
-
 2.Run test_s.sh
 
 
+
 Word data used in my experiments is from http://dbgroup.cs.tsinghua.edu.cn/ligl/simjoin/
+
 
 
 -한국어-
@@ -50,8 +51,8 @@ Word data used in my experiments is from http://dbgroup.cs.tsinghua.edu.cn/ligl/
 32      O = pickle.load(f)
 ```
 
-
 2.test_s.sh 실행
+
 
 
 실험에 사용한 단어 데이터의 출처 : http://dbgroup.cs.tsinghua.edu.cn/ligl/simjoin/
