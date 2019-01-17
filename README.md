@@ -4,9 +4,19 @@ Python3 implementation of "An Improvement of KD-tree base Metric Similarity Join
 Ubuntu version : Ubuntu 14.04.5 LTS (GNU/Linux 4.4.0-81-generic x86_64)
 Hadoop version : Hadoop 2.6.0-cdh5.11.2
 
-Usage : Run test_s.sh
+Usage :
+1.In partition_s.py, edit input file names to your string data in lines 28 and 31.
+-----------------------------------------------
+28  with open('datasets/word/Q_11', 'rb') as f:
+29      Q = pickle.load(f)
+30
+31  with open('datasets/word/O_11', 'rb') as f:
+32      O = pickle.load(f)
+-----------------------------------------------
 
-Word data is from http://dbgroup.cs.tsinghua.edu.cn/ligl/simjoin/
+2.Run test_s.sh
+
+Word data used in my experiments is from http://dbgroup.cs.tsinghua.edu.cn/ligl/simjoin/
 
 
 -한국어-
@@ -14,6 +24,16 @@ Word data is from http://dbgroup.cs.tsinghua.edu.cn/ligl/simjoin/
 우분투 버전 : Ubuntu 14.04.5 LTS (GNU/Linux 4.4.0-81-generic x86_64)
 하둡 버전 : Hadoop 2.6.0-cdh5.11.2
 
-실행 방법 : test_s.sh 실행
+실행 방법 : 
+1. partition_s.py의 28, 31번 줄에서 파일 이름을 가지고 있는 문자열 데이터의 파일 이름으로 바꾼다.
+-----------------------------------------------
+28  with open('datasets/word/Q_11', 'rb') as f:
+29      Q = pickle.load(f)
+30
+31  with open('datasets/word/O_11', 'rb') as f:
+32      O = pickle.load(f)
+-----------------------------------------------
 
-단어 데이터의 출처 : http://dbgroup.cs.tsinghua.edu.cn/ligl/simjoin/
+2.test_s.sh 실행
+
+실험에 사용한 단어 데이터의 출처 : http://dbgroup.cs.tsinghua.edu.cn/ligl/simjoin/
